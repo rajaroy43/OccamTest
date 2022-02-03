@@ -4,7 +4,8 @@
   "license": "MIT",
   "scripts": {
     "merkleProof": "node ./scripts/getMerkleProof.js",
-    "claimReward": "npx hardhat run ./scripts/claimReward.js --network rinkeby"
+    "claimReward": "hardhat run ./scripts/claimReward.js --network rinkeby",
+    "test":"hardhat test"
   },
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.4",
